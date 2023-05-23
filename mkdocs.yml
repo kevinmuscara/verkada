@@ -1,0 +1,49 @@
+site_name: Verkada API Wrapper
+repo_url: https://github.com/kevinmuscara/verkada
+theme:
+  name: material
+  palette: 
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  favicon: simple/enpass
+  icon: 
+    logo: simple/enpass
+  highlightjs: true
+  features:
+    # - toc.integrate
+    - revision.date
+    - navigation.path
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Cameras API:
+    - Alerts: cameras/alerts.md
+    - LPR: cameras/lpr.md
+plugins:
+  - table-reader
+  - search
+  - git-revision-date
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - attr_list
+  - md_in_html
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
