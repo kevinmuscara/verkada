@@ -54,15 +54,15 @@ VerkadaAPI.prototype = {
   },
 
   setAPIKey: function(apiKey) {
-    this._setCredential('x-api-key', apiKey);
+    this._setCredential('apiKey', apiKey);
   },
 
   getAPIKey: function() {
-    return this._getCredential('x-api-key');
+    return this._getCredential('apiKey');
   },
 
   resetAPIKey: function() {
-    this._resetCredential('x-api-key');
+    this._resetCredential('apiKey');
   },
 
   getCameraAlerts: function(options, callback) {

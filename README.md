@@ -18,8 +18,8 @@ First, initiate the wrapper with your authentication credentials:
 ```javascript
 const Verkada = require('verkada');
 const verkada = new Verkada({
-  org_id: 'aea92879-25d1-44bc-abe6-35970d5ed345',
-  "x-api-key": 'vkd_api_a6338157c9bb5ac9c71924cb2940e1a7'
+  org_id: '<Your Organization Id>',
+  apiKey: '<Your Verkada API Key>'
 });
 ```
 
