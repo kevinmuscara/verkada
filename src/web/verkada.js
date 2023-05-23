@@ -71,7 +71,49 @@ VerkadaAPI.prototype = {
       .withQueryParameters(options)
       .build()
       .execute(HttpManager.get, callback)
-  }
+  },
+
+  deleteLicensePlate: function(options, callback) {
+    return WebAPIRequest.builder(this.getAPIKey())
+      .withPath(`/cameras/v1/analytics/lpr/license_plate_of_interest?org_id=${this.getOrganizationId()}`)
+      .withQueryParameters(options)
+      .build()
+      .execute(HttpManager.del, callback)
+  },
+
+  getAllLicensePlates: function(options, callback) {
+    return WebAPIRequest.builder(this.getAPIKey())
+      .withPath(`/cameras/v1/analytics/lpr/license_plate_of_interest?org_id=${this.getOrganizationId()}`)
+      .withQueryParameters(options)
+      .build()
+      .execute(HttpManager.get, callback)
+  },
+
+  updateLicensePlate: function(description, options, callback) {
+    return WebAPIRequest.builder(this.getAPIKey())
+      .withPath(`/cameras/v1/analytics/lpr/license_plate_of_interest?org_id=${this.getOrganizationId()}`)
+      .withQueryParameters(options)
+      .withBodyParameters({ description }, options)
+      .build()
+      .execute(HttpManager.put, callback)
+  },
+
+  createLicensePlate: function(description, license_plate, options, callback) {
+    return WebAPIRequest.builder(this.getAPIKey())
+      .withPath(`/cameras/v1/analytics/lpr/license_plate_of_interest?org_id=${this.getOrganizationId()}`)
+      .withQueryParameters(options)
+      .withBodyParameters({ description, license_plate }, options)
+      .build()
+      .execute(HttpManager.post, callback)
+  },
+
+  getTimestampsLicensePlate: function( options, callback) {
+    return WebAPIRequest.builder(this.getAPIKey())
+      .withPath(`/cameras/v1/analytics/lpr/timestamps?org_id=${this.getOrganizationId()}`)
+      .withQueryParameters(options)
+      .build()
+      .execute(HttpManager.get, callback)
+  },
 }
 
 module.exports = VerkadaAPI;
