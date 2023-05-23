@@ -105,9 +105,6 @@ verkada.getCameraAlerts(
 | People     | Update POI          | Incomplete                |
 | People     | Create POI          | Incomplete                |
 
-
-
-
 ## MIT License
 
 Copyright (c) 2023 Kevin Muscara
