@@ -78,26 +78,33 @@ verkada.getCameraAlerts(
 
 ## Project Roadmap
 
-| Category      | Method        | Status                     |
-|---------------|---------------|----------------------------|
-| Alerts        | Get Alerts    | Complete, Tested, Passed   |
-| LPR           | Delete LPOI   | Complete, Untested         |
-| LPR           | Get all LPOI  | Complete, Untested         |
-| LPR           | Update LPOI   | Complete, Untested         |
-| LPR           | Create LPOI   | Complete, Untested         |
-| LPR           | Timestamp LP  | Complete, Untested         |
-| Analytics     | People/Vehicle | Incomplete |
-| Analytics     | Set MQTT Config | Incomplete |
-| Analytics     | Get Occupancy Trend | Incomplete | 
-| CloudBackup   | Get Backup | Incomplete |
-| CloudBackup   | Update Backup | Incomplete | 
-| Devices       | Get Camera | Incomplete |
-| Footage | Get Footage | Incomplete |
-| Footage | Get Thumbnail | Incomplete |
-| People | Delete POI | Incomplete |
-| People | Get all POI | Incomplete |
-| People | Update POI | Incomplete |
-| People | Create POI | Incomplete |
+| Category  | Method              | Status                    |
+|------------|---------------------|---------------------------|
+| Alerts     | Camera Alerts       | Complete, Tested, Passed  |
+| Alerts     | Sensor Alerts       | Incomplete                |
+| Data       | Sensor Data         | Incomplete                |
+| Audit      | Audit Logs          | Incomplete                |
+| Sites      | Guest Sites         | Incomplete                |
+| Sites      | Guest Visits        | Incomplete                |
+| Alarms     | Get Alarms          | Incomplete                |
+| LPR        | Delete LPOI         | Complete, Untested        |
+| LPR        | Get all LPOI        | Complete, Untested        |
+| LPR        | Update LPOI         | Complete, Untested        |
+| LPR        | Create LPOI         | Complete, Untested        |
+| LPR        | Timestamp LP        | Complete, Untested        |
+| Analytics  | People/Vehicle      | Incomplete                |
+| Analytics  | Set MQTT Config     | Incomplete                |
+| Analytics  | Get Occupancy Trend | Incomplete                |
+| CloudBackup| Get Backup          | Incomplete                |
+| CloudBackup| Update Backup       | Incomplete                |
+| Devices    | Get Camera          | Incomplete                |
+| Footage    | Get Footage         | Incomplete                |
+| Footage    | Get Thumbnail       | Incomplete                |
+| People     | Delete POI          | Incomplete                |
+| People     | Get all POI         | Incomplete                |
+| People     | Update POI          | Incomplete                |
+| People     | Create POI          | Incomplete                |
+
 
 
 
