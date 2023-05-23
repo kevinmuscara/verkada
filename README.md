@@ -1,11 +1,5 @@
 # Verkada API Wrapper
-Universal wrapper/client for the [Verkada API](https://apidocs.verkada.com).
-
-## Features
-This wrapper/client includes helper functions that support all of Verkadas features for the following scaffolds:
-
-* Cameras API
-  - Alerts
+Universal wrapper/client for the [Verkada API](https://apidocs.verkada.com). This project is currently unfinished, please check the [Project Roadmap](#project-roadmap) for more details.
 
 ## Installation
 ```shell
@@ -81,6 +75,31 @@ verkada.getCameraAlerts(
   }
 );
 ```
+
+## Project Roadmap
+
+| Category      | Method        | Status                     |
+|---------------|---------------|----------------------------|
+| Alerts        | Get Alerts    | Complete, Tested, Passed   |
+| LPR           | Delete LPOI   | Complete, Untested         |
+| LPR           | Get all LPOI  | Complete, Untested         |
+| LPR           | Update LPOI   | Complete, Untested         |
+| LPR           | Create LPOI   | Complete, Untested         |
+| LPR           | Timestamp LP  | Complete, Untested         |
+| Analytics     | People/Vehicle | Incomplete |
+| Analytics     | Set MQTT Config | Incomplete |
+| Analytics     | Get Occupancy Trend | Incomplete | 
+| CloudBackup   | Get Backup | Incomplete |
+| CloudBackup   | Update Backup | Incomplete | 
+| Devices       | Get Camera | Incomplete |
+| Footage | Get Footage | Incomplete |
+| Footage | Get Thumbnail | Incomplete |
+| People | Delete POI | Incomplete |
+| People | Get all POI | Incomplete |
+| People | Update POI | Incomplete |
+| People | Create POI | Incomplete |
+
+
 
 ## MIT License
 
