@@ -1,0 +1,21 @@
+{
+  "name": "verkada",
+  "version": "1.0.0",
+  "description": "Node.JS API wrapper for Verkada.",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmuscara/verkada.git"
+  },
+  "keywords": [],
+  "author": "Kevin Muscara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinmuscara/verkada/issues"
+  },
+  "homepage": "https://github.com/kevinmuscara/verkada#readme",
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
+}
