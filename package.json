@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Universal wrapper/client for the Verkada API.",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "doc:start": "mkdocs serve --dev-addr '127.0.0.1:80'",
+    "doc:build": "mkdocs build",
+    "doc:deploy": "mkdocs gh-deploy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinmuscara/verkada.git"
