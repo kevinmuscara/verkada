@@ -48,4 +48,25 @@ HttpManager.get = function(request, callback) {
   HttpManager._makeRequest(method, options, request.getURI(), callback);
 };
 
+HttpManager.post = function(request, callback) {
+  var options = _getParametersFromRequest(request);
+  var method = superagent.post;
+
+  HttpManager._makeRequest(method, options, request.getURI(), callback);
+};
+
+HttpManager.del = function(request, callback) {
+  var options = _getParametersFromRequest(request);
+  var method = superagent.del;
+
+  HttpManager._makeRequest(method, options, request.getURI(), callback);
+};
+
+HttpManager.put = function(request, callback) {
+  var options = _getParametersFromRequest(request);
+  var method = superagent.put;
+
+  HttpManager._makeRequest(method, options, request.getURI(), callback);
+};
+
 module.exports = HttpManager;
