@@ -29,4 +29,4 @@ verkada.setOrganizationId('new_id_value');
 verkada.setAPIKey('new_key_value');
 ```
 
-Now you're ready to start using the wrapper client! Check out the list of functions currently available by navigation through the various sections. 
+Now you're ready to start using the wrapper client! Check out the list of functions currently available by navigating through the various sections. 
